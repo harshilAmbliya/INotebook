@@ -1,4 +1,5 @@
 import React from 'react'
+import CardItem from './CardItem'
 
 function Home() {
   return (
@@ -13,7 +14,8 @@ function Home() {
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         <button class="button-85" >Submit</button>
 
-       
+       <h2>Your Data:</h2>
+       <CardItem />
 
 
 
